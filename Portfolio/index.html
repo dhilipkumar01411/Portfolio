@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <H1 class="logo">DHILIP KUMAR V</H1>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>DHILIP KUMAR V</span><br>From Chennai</h1>
+            </div>
+        </div>
+
+    </div>
+    <!-- ---------------------about-------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/about.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Motivated Full Stack Developer with a strong foundation in front-end technologies like React.js, HTML, CSS, and JavaScript. Completed multiple hands-on projects focusing on user interface design and seamless user experience. Familiar with backend tools like Java, Spring Boot, and MySQL. Quick learner with a passion for building responsive web applications and growing into a full-stack role</p>
+
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                         </div>
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>HTML / CSS</span><br>Creating responsive and visually appealing user interfaces with modern HTML5 and CSS3, focusing on cross-browser compatibility and user experience</li>
+                                <li><span>Javascript / React.js</span><br>Developing dynamic and interactive web applications using JavaScript and React.js, with a focus on reusable components and state management</li>
+                                <li><span>Java / Spring Boot / MySQL</span><br>Building backend services and RESTful APIs with Java and Spring Boot, integrating with MySQL databases for scalable web applications</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="experience">
+                            <ul>
+                                
+                                <li><span>Web Development</span><br>Hands-on practice in developing responsive and interactive web applications using HTML, CSS, JavaScript, and React.js</li>
+                                <li><span>Backend & Database</span><br>xperience with building backend services using Java and Spring Boot, and integrating MySQL for data storage and retrieval</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>JAVA Full Stack Development</span><br>At Greens Technology (2024-2025)</li>
+                                <li><span>BACHELOR OF COMPUTER APPLICATION (BCA)</span><br>At Dr.M.G.R Educational and Research Institue(2021-2024)</li>
+                                
+                            </ul>
+                         </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------services------------------------ -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class='bx bx-code-alt'></i>
+                    <h2>website Development</h2>
+                    <p>I create responsive and functional websites using modern web technologies.
+                        Skilled in HTML, CSS, JavaScript, and React for front-end development.
+                        Familiar with Java, Spring Boot, and MySQL for the back-end.
+                        Eager to build real-world websites and continuously improve my skills.
+                        Great for personal sites, small businesses, and practice projects.</p>
+                        <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class='bx bx-crop'></i>
+                    <h2>front-end Development </h2>
+                    <p>I create clean and modern website designs tailored to user needs.
+                        Focused on responsive layouts and intuitive user experiences.
+                        Skilled in HTML, CSS, JavaScript, and React.
+                        Designs are optimized for speed and accessibility.
+                        Perfect for personal, business, or startup websites.</p>
+                        <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class='bx bxl-android'></i>
+                    <h2>Backend Development</h2>
+                    <p>I develop server-side applications using Java and Spring Boot.
+                        Skilled in creating RESTful APIs and handling data with MySQL.
+                        Focus on clean code, logic, and database integration.
+                        Learning best practices in backend architecture and security.
+                        Ideal for supporting web applications and learning projects.</p>
+                        <!-- <a href="#">Learn more</a> -->
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- ---------------------portfolio------------------------ -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work-1.jpeg" >
+                    <div class="layer">
+                        <h3>Spotify clone</h3>
+                        <p>Designed and developed a music streaming web app interface using React.js, HTML, CSS, and JavaScript.
+                            Implemented key pages like login, signup, homepage, playlist view, and playback screen.
+                            Focused on clean layout, smooth navigation, and responsive design.
+                            Used React Router for multi-page navigation and component structuring.
+                            Simulated user flow and music listing without backend integration.</p>
+                         <a href="https://github.com/dhilipkumar01411/Spotify.git"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-2.webp" >
+                    <div class="layer">
+                        <h3>BookStore management System</h3>
+                        <p>Developed a Bookstore Management System using Spring boot, MySQL and JDBC to efficiently manage book records  including name, author, and description. Focused on backend logic, CRUD operations, and database integration. </p>
+                         <a href="https://github.com/dhilipkumar01411/BookStore.git"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <!-- <div class="work">
+                    <img src="Images/work-3.jpeg" >
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, earum est explicabo voluptatem corporis harum ipsa sapiente quis dolorum reiciendis,
+                         numquam ipsum quaerat maxime voluptatum quod fugiat enim sequi excepturi?</p>
+                         <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div> -->
+            </div>
+            <a href="https://github.com/dhilipkumar01411" class="btn">See more</a>
+        </div>
+      </div>
+      <!-- ---------------------contact-------------------------->
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class='bx bx-send' ></i> dhilipkumar02002@gmail.com</p>
+                    <p><i class='bx bxs-phone'></i> 7358587283</p>
+                    <div class="social-icons">
+                        <a href=""><i class='bx bxl-facebook-circle'></i></a>
+                        <a href="https://github.com/dhilipkumar01411"><i class='bx bxl-github' ></i></a>
+                        <a href="www.linkedin.com/in/dhilip-kumar-17153922a"><i class='bx bxl-linkedin-square' ></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://formspree.io/f/mrbqkkpe" method="POST">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+       </div>
+       
+
+    <script src="Portfolio.js"></script>
+</body>
+</html>
